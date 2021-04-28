@@ -1,5 +1,5 @@
 # portfolio
-Portfolio para estudar
+Portfolio do desenvolvedor
 
 ## Tarefas
 O controle das tarefas será feito no Github.
@@ -8,5 +8,5 @@ O controle das tarefas será feito no Github.
 
 :package: Nova funcionalidade
 :up:Atualização
-:beattle:Correção de bugs
+🐛:Correção de bugs
 :checkered_flag: Release
