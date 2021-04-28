@@ -8,5 +8,5 @@ O controle das tarefas será feito no Github.
 
 :package: Nova funcionalidade
 :up:Atualização
-🐛:Correção de bugs
+🐛Correção de bugs
 :checkered_flag: Release
