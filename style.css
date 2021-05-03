@@ -425,24 +425,31 @@ header {
     justify-content: center;
 }
 
+.sessao-contato img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    position: relative;
+}
+
 .contato-wrapper {
     width: 60%;
-    display: flex;
     height: 40rem;
-    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
 }
 
-.contato-left {
-    width: 35%;
-    background-image: 
-        linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-        url(imagens/contato.jpg);
-    background-size: cover;
-}
 
-.contato-right {
+.contato-center {
     width: 65%;
-    background-color: #eee;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    opacity: 0.9;
     padding: 1rem 3rem 3rem 3rem;
 
 }
@@ -452,8 +459,9 @@ header {
     text-align: center;
     font-family: var(--font-primary);
     color: #272727;
-    font-size: 3rem;
-    font-weight: lighter;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 1rem;
 }
 
 .sessao-contato form {
@@ -465,6 +473,7 @@ header {
 
 .field-group {
     position: relative;
+    margin: 2%;
 }
 
 .field-group textarea {
@@ -476,18 +485,17 @@ header {
 .field {
     background-color: transparent;
     border: none;
-    width: 25rem;
+    width: 27rem;
+    height: 3rem;
     font-size: 1.5rem;
     font-family: var(--font-secondary);
-    border-bottom: 2px dashed #636363;
-    height: 3rem;
+    border-bottom: 1px solid #636363;
     outline: none;
 }
 
 .field-label {
     position: absolute;
-    left: 0;
-    top: -1rem;
+    left: 0%;
     font-family: var(--font-secondary);
     height: 3rem;
     outline: none;
@@ -496,16 +504,18 @@ header {
 }
 
 .field:focus ~ label {
-    top: 0;
+    top: -5%;
     font-size: 1rem;
 }
 
-.field:focus {
-    border-bottom: 1px solid;
+.btn-submit {
+    width: 30%;
+    height: 1.6rem;
+    margin-top: 6rem;
+    transition: 0.5s;
 }
 
-.btn-submit {
-    width: 100%;
-    height: 1.5rem;
-    margin-top: 2rem;
+.btn-submit:hover {
+    background-color: #4f334a;
+    transition: 0.5s;
 }
